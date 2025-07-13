@@ -1,19 +1,21 @@
-import java.util.Scanner;
 public class forloop 
 {
-    public static void main(String[] args) {
-        int fact=1;
-        Scanner fac= new Scanner(System.in);
-        System.out.println("enter thw factorial to be detected");
-        int n= fac.nextInt();
-        for (int i=1;i<=n;i++)
-        {
-            fact*=i;
-            
-        }
-        System.out.println(fact);
-        fac.close();
-    }
+    public static void main(String[] args) 
+    {
+        int n=5;
 
+        for(int i=1;i<=n;i++)
+        {
+            System.out.println("Day "+i);
+
+            for(int j=1;j<=9;j++)
+            {
+                System.out.println("9");
+            }
+
+
+        }
+        
+    }
     
 }
