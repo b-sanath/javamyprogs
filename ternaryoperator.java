@@ -1,22 +1,25 @@
+package helloworld;
+
 public class ternaryoperator 
 {
-    public static void main(String[] args) 
-    {
-        int x=4;
+	public static void main(String[] args) 
+	{
+		int n=6;
+		String result;
+		
+//		if(n%2==0)
+//		{
+//			System.out.println("even");
+//		}
+//		else
+//		{
+//			System.out.println("odd");
+//		}
 
-        // if(x%2==0)
-        // {
-        //     System.out.println("even");
-        // }
-        // else
-        // {
-        //     System.out.println("odd");
-        // }
+		result= n%2==0 ? "even" : "odd";
+		
+		System.out.println(result);
+		
+	}
 
-        String result=x%2==0 ? "even" : "odd";
-
-        System.out.println(result);
-        
-    }
-    
 }
